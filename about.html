@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinaya R -  Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f4f4f9, #ffffff);
+            font-family: 'Inter', sans-serif;
+        }
+        .milestone {
+            position: relative;
+            padding-left: 3rem;
+            margin: 2rem 0;
+        }
+        .milestone:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 1rem;
+            height: 1rem;
+            background-color: #1b8b9a;
+            border-radius: 50%;
+        }
+        .milestone-line {
+            position: absolute;
+            left: 0.5rem;
+            top: 1.5rem;
+            height: calc(100% + 1rem);
+            width: 0.25rem;
+            background-color: #d1c4e9;
+        }
+        .skill-wheel {
+            display: grid;
+            place-items: center;
+            height: 300px;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-center py-10">
+        <h1 class="text-4xl font-bold">Abinaya R</h1>
+        <p class="text-xl mt-3">Engineering Student | Innovating Through Projects and Ideas</p>
+        <img src="Abi.jpg" alt="Your Profile Picture" class="w-40 h-40 rounded-full mx-auto">
+
+        <div class="mt-5">
+            <a href="#contact" class="px-4 py-2 bg-yellow-400 text-purple-800 font-semibold rounded-lg shadow-md hover:bg-yellow-500">Contact Me</a>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <h2 class="text-3xl font-bold text-purple-700 mb-5">About Me</h2>
+        <p>Hello! I am <strong>ABINAYA R</strong>, an Electronics and Communication Engineering (ECE) student passionate about blending hardware and software to solve real-world problems. I’m skilled in circuit design, embedded systems, and communication technologies, with a strong focus on innovation. Always eager to learn and explore emerging fields like IoT and machine learning, I’m excited to collaborate on projects that push the boundaries of technology. Let’s connect!</p>
+    </section>
+    <!-- Interactive Timeline -->
+    <section class="max-w-4xl mx-auto py-10 px-5">
+        <h2 class="text-3xl font-bold text-purple-700 mb-5">My Journey</h2>
+        <div class="relative">
+            <div class="milestone-line"></div>
+            <div class="milestone">
+                <h3 class="font-bold text-lg">Currently Pursuing Bachelor's in Engineering</h3>
+                <p class="text-gray-600">I'm currently enrolled at Sri Krishna College of Technology in Electronics and Communication Engineering. Expected Graduation: 2027.</p>
+            </div>
+            <div class="milestone">
+                <h3 class="font-bold text-lg">Completed courses on Coursera,NPTEL,Infosys Springboard</h3>
+                <p class="text-gray-600">Completed a course on Embedded Systems to enhance my knowledge.</p>
+            </div>
+            <div class="milestone">
+                <h3 class="font-bold text-lg">Developed a Smart Home Automation System</h3>
+                <p class="text-gray-600">Designed an IoT-based solution for controlling home appliances remotely.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Wheel -->
+    <section class="bg-gray-100 py-10">
+        <h2 class="text-3xl font-bold text-center text-purple-700 mb-5">Skills</h2>
+        <div class="skill-wheel">
+            <div class="w-40 h-40 bg-purple-500 rounded-full text-white flex items-center justify-center">
+                <ul class="text-center">
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Web Development</li>
+                    <li>Machine Learning</li>
+                    <li>Embedded Systems</li>
+                    <li>Arduino</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="max-w-4xl mx-auto py-10 px-5">
+        <h2 class="text-3xl font-bold text-purple-700 mb-5">Projects</h2>
+        <div>
+            <h3 class="text-lg font-semibold">1. Real-Time Chat Application</h3>
+            <p class="text-gray-600">Built a real-time messaging app using Node.js and Socket.io to facilitate communication in a networked environment.</p>
+        </div>
+        <div class="mt-5">
+            <h3 class="text-lg font-semibold">2. Smart Home Automation System</h3>
+            <p class="text-gray-600">Developed an IoT-based solution for controlling home appliances remotely via mobile app.</p>
+        </div>
+        <div class="mt-5">
+            <h3 class="text-lg font-semibold">3. Energy-Efficient LED System</h3>
+            <p class="text-gray-600">Created an Arduino-controlled lighting system that reduces energy consumption in residential spaces.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-purple-100 py-10">
+        <h2 class="text-3xl font-bold text-center text-purple-700 mb-5">Contact Me</h2>
+        <div class="text-center">
+            <p class="text-gray-700">Email: <a href="mailto:your-email@domain.com" class="text-purple-600">727823tuec003@skct.edu.in</a></p>
+            <p class="text-gray-700">Phone: <a href="tel:+your-phone-number" class="text-purple-600">+91 9025735929</a></p>
+            <p class="text-gray-700">LinkedIn: <a href="https://www.linkedin.com/in/abinaya-ramachandran-ba2436318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-purple-600" target="_blank">LinkedInProfile</a></p>
+            <p class="text-gray-700">GitHub: <a href="https://github.com/Abinaya323" class="text-purple-600" target="_blank">abinaya-r</a></p>
+        </div>
+    </section>
+
+    <footer class="text-center bg-purple-500 text-white py-5">
+        <p>&copy; 2024 Abinaya R. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.milestone', {
+            delay: 200,
+            distance: '50px',
+            origin: 'left',
+            duration: 1000
+        });
+    </script>
+</body>
+</html>
